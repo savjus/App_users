@@ -1,1 +1,1 @@
-CRUD web app using local database
+CRUD web app using local database for keeping user information
