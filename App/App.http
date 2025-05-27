@@ -1,0 +1,41 @@
+@App_HostAddress = http://localhost:5123
+
+@id = 
+
+############## first get function
+ GET {{App_HostAddress}}/api/employees 
+ Accept: application/json
+
+
+#########first post function
+POST {{App_HostAddress}}/api/employees
+Accept: application/json
+Content-type: application/json
+
+{
+  "Name": "John Doe",
+  "Email": "john.doe@example.com",
+  "Phone": "123-456-7890",
+  "Salary": 50000.00
+}
+
+
+
+################ second get function  /{id}
+# GET {{App_HostAddress}}/api/employees/{{id}}
+# Accept: application/json
+
+
+################ first put function (update)
+# PUT {{App_HostAddress}}/api/employees/{{id}}
+# Accept: application/json
+# Content-type: application/json
+# {
+# "Name":"John Doe",
+# "Email":"put@succes",
+# "Phone": "123-456-7890",
+# "Salary": 50000.00
+# }
+######################## first delete action
+# DELETE {{App_HostAddress}}/api/employees/{{id}}
+# Accept: application/json

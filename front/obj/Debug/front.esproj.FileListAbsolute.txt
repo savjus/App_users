@@ -1,0 +1,3 @@
+C:\Users\salvp\Desktop\App\front\obj\Debug\front.esproj.CoreCompileInputs.cache
+C:\Users\salvp\source\repos\Random projects\projects\__WEB-APPS\App\front\obj\Debug\front.esproj.CoreCompileInputs.cache
+C:\Users\salvp\source\repos\Random projects\projects\__WEB-APPS\App_users\front\obj\Debug\front.esproj.CoreCompileInputs.cache
